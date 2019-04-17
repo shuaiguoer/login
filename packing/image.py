@@ -12,3 +12,4 @@ def tra(name, path, style='a+'):
 
 tra(name='img1', path=r'E:\Python\Code\packing\login.ico', style='w+')
 tra(name='img2', path=r'E:\Python\Code\packing\welcome.png')
+# 更新
