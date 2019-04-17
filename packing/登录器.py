@@ -9,7 +9,7 @@ from tkinter import messagebox
 
 try:
     # 连接数据库
-    db = pymysql.connect('97.64.26.219', 'user', '123.com', 'login')
+    db = pymysql.connect('********', '****', '****', '****')
     # 声明游标
     cur = db.cursor()
 except pymysql.Error as e:
