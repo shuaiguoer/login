@@ -28,7 +28,7 @@ def add_user():
     def mail():
         try:
             my_sender = 'ls12345666@qq.com'     # 发件人邮箱账号
-            my_pass = 'dsyzyeeftoyzcddb'        # 发件人邮箱密码(当时申请smtp给的口令)
+            my_pass = 'xxxxxxxxxxxxxxxxxx'        # 发件人邮箱密码(当时申请smtp给的口令)
             my_user = entry_new_mail.get()      # 收件人邮箱账号，我这边发送给自己
             msg = MIMEText(str(xxxx), 'plain', 'utf-8')
             msg['From'] = formataddr(["Shuai", my_sender])      # 括号里的对应发件人邮箱昵称、发件人邮箱账号
